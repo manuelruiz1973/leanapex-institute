@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { servicesData } from './Services'; // Asegúrate de ajustar la ruta si guardaste services.ts en otro lugar
+import { servicesData } from './services'; // Asegúrate de ajustar la ruta si guardaste services.ts en otro lugar
 
 export default function HomePage() {
   return (
