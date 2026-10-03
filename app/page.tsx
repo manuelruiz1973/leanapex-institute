@@ -147,9 +147,12 @@ export default function HomePage() {
               <p className="mt-2 text-3xl font-black tracking-tight text-slate-950">Diseñemos tu próximo plan de capacitación</p>
               <p className="mt-2 text-sm text-slate-600">Completa el formulario y te enviaremos una propuesta técnica estructurada de acuerdo a las necesidades de tu rubro.</p>
             </div>
-            <form action="https://formsubmit.co" method="POST" className="space-y-6">
-              <input type="hidden" name="_next" value="http://localhost:3000" />
-              <input type="hidden" name="_subject" value="Nueva Cotización - LeanApex Institute" />
+                                   <form action="https://web3forms.com" method="POST" className="space-y-6">
+              <input type="hidden" name="access_key" value="5efcb5a7-3333-457c-bd0e-012cc0f46145" />
+              <input type="hidden" name="redirect" value="https://leanapex-institute.vercel.app" />
+              <input type="hidden" name="subject" value="Nueva Cotización - LeanApex Institute" />
+              <input type="hidden" name="from_name" value="Web LeanApex" />
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Nombre Completo</label>
@@ -160,33 +163,27 @@ export default function HomePage() {
                   <input type="email" name="email" placeholder="juan.perez@empresa.com" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all" required />
                 </div>
               </div>
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Nombre de la Empresa</label>
-                  <input type="text" name="empresa" placeholder="Razón Social / Negocio" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all" required />
+                  <input type="text" name="empresa" placeholder="Razón Social" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all" required />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Sector Industrial</label>
-                  <select name="sector" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all text-slate-600" required>
-                    <option value="">Selecciona tu sector</option>
-                    <option value="textil">Textil y Confecciones</option>
-                    <option value="industrial">Manufactura e Industrial General</option>
-                    <option value="salud">Clínicas y Sector Salud (Lean Healthcare)</option>
-                    <option value="servicios">Empresas de Servicios</option>
-                    <option value="startups">Tech Startups / Corporativos</option>
-                  </select>
+                  <input type="text" name="sector" placeholder="Ej. Textil / Industrial" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all" required />
                 </div>
               </div>
+
               <div>
-                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Principal Desafío Operativo Actual</label>
-                <textarea name="desafio" rows={4} placeholder="Cuéntanos brevemente qué desafíos deseas mitigar..." className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all resize-none" required></textarea>
+                <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Principal Desafío Operativo</label>
+                <textarea name="desafio" rows={3} placeholder="Cuéntanos tu desafío..." className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-blue-500 focus:bg-white transition-all resize-none" required></textarea>
               </div>
+
               <div className="pt-2">
                 <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white text-base font-semibold py-3.5 px-4 rounded-xl transition-all shadow-sm text-center">
                   Enviar Solicitud de Información
-                </button>
-              </div>
-            </form>
+                            </form>
           </div>
         </div>
       </section>
@@ -203,7 +200,20 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
+       {/* 6. PIE DE PÁGINA */}
+      <footer className="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:flex md:justify-between md:items-center">
+          <div className="text-sm">
+            <span className="text-white font-bold tracking-tight">LeanApex Institute</span> © 2026. Todos los derechos reservados.
+          </div>
+          <div className="mt-4 md:mt-0 text-xs space-x-6">
+            <span className="text-slate-500">Ubicación principal: Perú</span>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn Profesional</a>
+          </div>
+        </div>
+      </footer>
 
     </div>
   );
 }
+
