@@ -147,7 +147,7 @@ export default function HomePage() {
               <p className="mt-2 text-3xl font-black tracking-tight text-slate-950">Diseñemos tu próximo plan de capacitación</p>
               <p className="mt-2 text-sm text-slate-600">Completa el formulario y te enviaremos una propuesta técnica estructurada de acuerdo a las necesidades de tu rubro.</p>
             </div>
-                 <form action="https://api.//web3forms.com/submit" method="POST" className="space-y-6">
+                 <form action="https://api//web3forms.com/submit" method="POST" className="space-y-6">
               <input type="hidden" name="access_key" value="5efcb5a7-3333-457c-bd0e-012cc0f46145" />
               <input type="hidden" name="redirect" value="https://leanapex-institute.vercel.app" />
               <input type="hidden" name="subject" value="Nueva Cotización - LeanApex Institute" />
