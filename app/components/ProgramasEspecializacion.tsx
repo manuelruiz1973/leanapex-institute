@@ -15,10 +15,14 @@ export function ProgramasEspecializacion() {
       sub: "Optimización de planta, control de calidad y eficiencia productiva textil.",
       mallas: [
         "Módulo 1: Introducción a la Industria Textil y Cadena de Suministro",
-        "Módulo 2: Hilandería, Tejeduría y Tintorería Industrial",
-        "Módulo 3: Lean Manufacturing aplicado a Confecciones (Eliminación de Mudas)",
-        "Módulo 4: Control de Calidad, Auditoría de Prendas y Aseguramiento",
-        "Módulo 5: Gestión de Planta, Costos de Manufactura y Sostenibilidad"
+        "Módulo 2: Fibras Textiles, Hilandería y su Impacto en el Proceso",
+        "Módulo 3: Tejeduría Plana y de Punto: Estructuras y Parámetros",
+        "Módulo 4: Tintorería, Acabados Químicos y Sostenibilidad Ambiental",
+        "Módulo 5: Lean Manufacturing aplicado a Confecciones (Eliminación de Mudas)",
+        "Módulo 6: Estudio de Tiempos, Métodos y Balance de Líneas de Costura",
+        "Módulo 7: Control de Calidad, Auditoría de Prendas y Aseguramiento",
+        "Módulo 8: Planeamiento y Control de la Producción Textil (PCP)",
+        "Módulo 9: Gestión de Planta, Costos de Manufactura y Logística Global"
       ],
       detalles: "Inversión Contado: S/. 3,200 | 5 Cuotas de S/. 700 | Tarifa Corp: S/. 2,800"
     },
@@ -27,10 +31,14 @@ export function ProgramasEspecializacion() {
       sub: "Planificación avanzada, programación de operaciones y control de requerimientos.",
       mallas: [
         "Módulo 1: Fundamentos de la Planificación y Control de la Producción (PCP)",
-        "Módulo 2: Pronósticos de Demanda y Plan Agregado de Producción",
-        "Módulo 3: Plan Maestro de Producción (MPS) y Planificación de Requerimientos (MRP)",
-        "Módulo 4: Programación de Operaciones a Corto Plazo y Gestión de Cuellos de Botella",
-        "Módulo 5: Indicadores de Rendimiento (OEE, KPIs) y Analítica de Producción"
+        "Módulo 2: Pronósticos de Demanda y Modelos de Proyección Avanzada",
+        "Módulo 3: Plan Agregado de Producción y Gestión de la Capacidad",
+        "Módulo 4: Plan Maestro de Producción (MPS) y su Estabilización",
+        "Módulo 5: Planificación de Requerimientos de Materiales (MRP) y CRP",
+        "Módulo 6: Programación de Operaciones a Corto Plazo y Secuenciación",
+        "Módulo 7: Control de la Actividad de Producción (PAC) y Teoría de Restricciones",
+        "Módulo 8: Gestión y Control de Inventarios de Alto Rendimiento",
+        "Módulo 9: Indicadores de Rendimiento (OEE, KPIs) y Analítica de Datos"
       ],
       detalles: "Inversión Contado: S/. 3,200 | 5 Cuotas de S/. 700 | Tarifa Corp: S/. 2,800"
     },
